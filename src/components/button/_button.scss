@@ -1,0 +1,30 @@
+.cmp-button {
+  text-decoration: none;
+}
+.cmp-button__text {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.1px;
+  padding: 10px;
+  text-shadow: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #FFFFFF;
+}
+.cmp-button__icon {}
+//.cmp-button__icon--myIcon {}
+
+.cmp-button:hover, .cmp-button__text:hover{
+  background-color: #5a5b5c;
+  border-color: #5a5b5c;
+  color: black;
+}
