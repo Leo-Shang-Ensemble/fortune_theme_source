@@ -4,20 +4,20 @@
 @import './site/base';
 @import './components/*/*';
 
-#header, #category_title {
-  padding-left: 301.5px;
-  padding-right: 301.5px;
-}
+//#header, #category_title {
+//  padding-left: 301.5px;
+//  padding-right: 301.5px;
+//}
 
 #our_services_container, #meet_the_team_container, #recent_news_container, #happy_client_container {
   padding-top: 65px;
   padding-bottom: 65px;
 }
 
-#category_content {
-  padding-left: 269.5px;
-  padding-right: 269.5px;
-}
+//#category_content {
+//  padding-left: 269.5px;
+//  padding-right: 269.5px;
+//}
 
 #header {
   position: sticky;
