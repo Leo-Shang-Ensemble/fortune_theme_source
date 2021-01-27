@@ -144,18 +144,20 @@
   color: #929394;
   font-size: 14.224px;
   font-weight: 700;
-  margin-left: 290px;
   padding-top: 14px;
+  margin-left: 290px;
 }
 
 #happy_client_left {
   margin-top: 32px;
   padding-right: 16px;
+  position: relative;
 }
 
 #happy_client_right {
   margin-top: 32px;
   padding-left: 16px;
+  position: relative;
 }
 
 #client_icon_name {
@@ -184,5 +186,19 @@
   padding-top: 32px;
   padding-bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+#client_comment::before {
+  content: "\201C";
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 5.2em;
+  font-weight: 900;
+  position: absolute;
+  margin-left: -75px;
+  opacity: 0.75;
+  text-shadow: 0 2px 1px rgba(0,0,0,.15);
+  padding-top: 32px;
+  width: 0;
+  height: 0;
 }
 
