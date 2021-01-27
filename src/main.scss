@@ -4,6 +4,10 @@
 @import './site/base';
 @import './components/*/*';
 
+.container.main {
+  padding: 0;
+}
+
 #header, #category_title, #build_your_business_with_us_text_container {
   margin-left: auto;
   margin-right: auto;
@@ -87,14 +91,12 @@
   width: 100%;
 }
 
-#build_your_business_with_us_container #build_your_business_with_us_text_container {
+#build_your_business_with_us_container .container {
   position: absolute;
   top: 50%;
-  //margin: 0;
-  transform: translateY(-50%);
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
 }
 
 #build_your_business_with_us_text_container .title {
@@ -112,7 +114,7 @@
 }
 
 #build_your_business_with_us_text_container  .button {
-  padding-top: 20px;
+  padding-top: 32px;
 }
 
 #meet_the_team_container, #happy_client_container {
