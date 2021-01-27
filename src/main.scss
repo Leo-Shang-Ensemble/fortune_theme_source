@@ -76,16 +76,20 @@
   position: relative;
 }
 
-#build_your_business_with_us_container #get_started_image {
+#build_your_business_with_us_container .image {
+  background-color: black;
+}
 
+#build_your_business_with_us_container #get_started_image {
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
 }
 
 #build_your_business_with_us_text_container {
   position: absolute;
   top: 0;
-  background-color: #000000;
-  opacity: 0.75;
-  padding: 140px 301.5px;
+  //padding: 140px 301.5px;
 }
 
 #build_your_business_with_us_text_container .title {
