@@ -5,7 +5,9 @@
 .cmp-teaser__image {}
 .cmp-teaser__content {}
 .cmp-teaser__pretitle {}
-.cmp-teaser__title {}
+.cmp-teaser__title {
+  margin-top: 0;
+}
 .cmp-teaser__title-link {
   font-family: 'Open Sans', sans-serif;
   color: #262727;
@@ -33,4 +35,9 @@
   border-bottom-style: solid;
   text-decoration: none;
   line-height: 15px;
+}
+
+.cmp-teaser__title h3 {
+  margin-top: 0;
+  margin-bottom: 17px;
 }
