@@ -184,7 +184,9 @@
   font-size: 14.224px;
   font-weight: 700;
   padding-top: 14px;
-  margin-left: 80%;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: 5%;
 }
 
 #happy_client_left {
