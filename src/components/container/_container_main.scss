@@ -2,10 +2,15 @@
 //== Container main content style, used on page template
 
 #header, #our_services_container, #meet_the_team_container, #recent_news_container, #happy_client_container {
-    @media screen and (min-width: 992px) {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width: 1200px) {
         margin-left: auto;
         margin-right: auto;
-        max-width: 1164px;
+        max-width: 1070px;
     }
 
     @media screen and (max-width: 992px) {
@@ -26,9 +31,9 @@
     padding-bottom: 65px;
 }
 
-#header, #category_title {
-    padding: 0 47px;
-}
+//#header, #category_title {
+//    padding: 0 47px;
+//}
 
 #meet_the_team_section, #happy_client_section {
     background-color: $color-background-grey;
