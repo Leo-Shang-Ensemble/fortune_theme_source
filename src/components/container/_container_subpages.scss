@@ -8,19 +8,19 @@
   @media screen and (min-width: 1200px) {
     margin-left: auto;
     margin-right: auto;
-    width: 1070px;
+    max-width: 1070px;
   }
 
   @media screen and (max-width: 992px) {
     margin-left: auto;
     margin-right: auto;
-    width: 970px;
+    max-width: 970px;
   }
 
   @media screen and (max-width: 768px) {
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
+    max-width: 750px;
   }
 }
 
