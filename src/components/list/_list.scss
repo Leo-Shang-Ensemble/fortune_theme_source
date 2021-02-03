@@ -1,5 +1,16 @@
-.cmp-list {}
-.cmp-list__item {}
-.cmp-list__item-link {}
-.cmp-list__item-title {}
-.cmp-list__item-date {}
+.cmp-list {
+  list-style-type: none;
+}
+.cmp-list__item {
+  list-style-type: none;
+}
+.cmp-list__item-link {
+  list-style-type: none;
+  text-decoration: none;
+}
+.cmp-list__item-title {
+  list-style-type: none;
+}
+.cmp-list__item-date {
+  list-style-type: none;
+}

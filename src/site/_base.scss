@@ -38,24 +38,17 @@ textarea {
     }
 }
 
-h2 {
-    color: $color-blue;
+h1 {
     font-size: 39px;
-    font-weight: 700;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 800px) {
         font-size: 23px;
     }
 }
 
-h1 {
-    font-size: 39px;
-    font-family: 'Open Sans', sans-serif;
-
-    @media screen and (max-width: 800px) {
-        font-size: 23px;
-        font-weight: 700;
-        color: #FFFFFF;
-    }
+ul {
+    padding-inline-start: 0;
 }

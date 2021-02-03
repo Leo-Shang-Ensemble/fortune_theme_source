@@ -1,0 +1,13 @@
+#banner_container .image {
+  background-color: black;
+}
+
+#banner_container #subpage_banner_image {
+  opacity: 0.25;
+  width: 100%;
+}
+
+#subpage_banner_image img {
+  max-height: 109px;
+  object-fit: cover;
+}
