@@ -1,0 +1,34 @@
+
+// teaser styles for the main page
+
+#first_row {
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-color: $color-border;
+}
+
+#left_teaser {
+  padding-left: 32px;
+  padding-right: 32px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  border-color: $color-border;
+}
+
+#mid_teaser {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+#right_teaser {
+  padding-left: 32px;
+  padding-right: 32px;
+  border-left-style: dashed;
+  border-left-width: 1px;
+  border-color: $color-border;
+}
+
+#right_teaser_two_col {
+  padding-left: 32px;
+  padding-right: 32px;
+}

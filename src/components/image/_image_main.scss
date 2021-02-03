@@ -1,0 +1,22 @@
+#build_your_business_with_us_container .image {
+  background-color: black;
+}
+
+#build_your_business_with_us_container #get_started_image {
+  opacity: 0.25;
+  width: 100%;
+}
+
+#get_started_image img {
+  min-height: 500px;
+  object-fit: cover;
+}
+
+#client_image img {
+  width: 64px;
+  height: 64px;
+  padding: 4px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}

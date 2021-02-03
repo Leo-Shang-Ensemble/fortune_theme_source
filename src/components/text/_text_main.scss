@@ -1,0 +1,32 @@
+
+// text style for the main page
+
+#build_your_business_with_us_text_container .text {
+  line-height: 23.1px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+#client_comment {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 29.7px;
+  background-color: $color-blue;
+  padding: 32px 32px 40px 96px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+#client_comment::before {
+  content: "\201C";
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 5.2em;
+  font-weight: 900;
+  position: absolute;
+  margin-left: -75px;
+  opacity: 0.75;
+  text-shadow: 0 2px 1px rgba(0,0,0,.15);
+  padding-top: 32px;
+  width: 0;
+  height: 0;
+}
