@@ -1,0 +1,36 @@
+#citation_container .text {
+  font-style: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+
+#citation p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 0 0 2rem 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-style: normal;
+  color: #262727;
+}
+
+#reference a {
+  color: #0da4d3;
+  text-decoration-color: #0da4d3;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-size: 0.889rem;
+  font-weight: 400;
+  line-height: 1.35;
+  overflow-wrap: break-word;
+}
+
+#caption_container .text, #caption_text p {
+  margin: 0;
+}

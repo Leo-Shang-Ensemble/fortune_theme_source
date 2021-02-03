@@ -1,0 +1,31 @@
+#left_caption_picture {
+  float: left;
+  display: table;
+  margin: 0.5em 1em 0.5em 0;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 2rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+#right_caption_picture {
+  float: right;
+  display: table;
+  margin: 0.5em 0 0.5em 1em;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 2rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+#left_caption_picture .cmp-image__title, #right_caption_picture .cmp-image__title {
+  color: #929394;
+  line-height: 1.65;
+  display: table-caption;
+  caption-side: bottom;
+  margin-bottom: 0;
+  margin-top: 0.75em;
+  font-size: 0.889rem;
+}
