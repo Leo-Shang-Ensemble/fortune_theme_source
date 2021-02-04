@@ -1,0 +1,19 @@
+#blog_banner_container #blog_banner_image {
+  opacity: 0.25;
+  width: 100%;
+}
+
+#blog_banner_container .image {
+  background-color: black;
+}
+
+#blog_banner_image img {
+  max-height: 139px;
+  object-fit: cover;
+}
+
+#like_container img {
+  width: 26px;
+  height: 26px;
+  border: none;
+}

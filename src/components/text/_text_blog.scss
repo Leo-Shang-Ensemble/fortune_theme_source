@@ -1,0 +1,43 @@
+#blog_banner_text_container p {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  font-size: 0.702rem;
+  color: #FFFFFF;
+  text-shadow: rgba(0, 0, 0, 0.2);
+  line-height: 1.65;
+}
+
+#like_text {
+  margin: 0;
+}
+
+#like_container p {
+  font-size: 11px;
+  color: #5a5b5c;
+  font-weight: 400;
+  font-style: normal;
+  direction: ltr;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#related_container p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  opacity: 0.6;
+  max-width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#related_container a {
+  color: #0da4d3;
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+
+#blog_banner_container {
+  position: relative;
+}
+
+#blog_banner_text_container {
+  max-width: 1100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+#share_container {
+  display: flex;
+}
+
+#related_container {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ebecee;
+}
