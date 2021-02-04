@@ -26,6 +26,9 @@
   border-right-style: solid;
   border-radius: 2px;
   border-color: #0da4d3;
+  a {
+    color: #0da4d3;
+  }
 }
 
 #site_navigation a {
@@ -36,8 +39,4 @@
   padding-top: 6px;
   padding-bottom: 6px;
   line-height: 1.5;
-}
-
-#site_navigation a:hover {
-  color: #0da4d3;
 }

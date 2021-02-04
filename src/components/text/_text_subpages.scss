@@ -10,6 +10,11 @@
   line-height: 1.65;
 }
 
+#subpage_left_container a:hover,
+#subpage_right_container a:hover {
+  color: #006ba1;
+}
+
 #subpage_right_container .text {
   margin-block-start: 16px;
   margin-block-end: 16px;

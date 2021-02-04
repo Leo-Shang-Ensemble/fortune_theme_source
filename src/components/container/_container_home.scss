@@ -23,12 +23,6 @@
 //    top: 80px;
 //}
 
-#banner_text_container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1100px;
-}
-
 #banner_container {
     position: relative;
 }
@@ -39,6 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
+    max-width: 1100px;
 }
 
 #header, #our_services_container, #meet_the_team_container, #recent_news_container, #happy_client_container {

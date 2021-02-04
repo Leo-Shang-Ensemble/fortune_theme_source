@@ -23,3 +23,10 @@
   font-weight: 400;
   padding: 1px 8px 0 5px;
 }
+
+#tag_button:hover {
+  background: #5a5b5c;
+  span {
+    color: #FFFFFF;
+  }
+}
