@@ -1,5 +1,5 @@
 
-//== Container main content style, used on page template
+//== container style, used on home page
 
 // TODO: keep header at top
 #header_container {
@@ -22,6 +22,24 @@
 //    position: relative;
 //    top: 80px;
 //}
+
+#banner_text_container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+}
+
+#banner_container {
+    position: relative;
+}
+
+#banner_text_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
 
 #header, #our_services_container, #meet_the_team_container, #recent_news_container, #happy_client_container {
     margin-left: auto;
@@ -55,24 +73,6 @@
 
 #meet_the_team_section, #happy_client_section {
     background-color: $color-background-grey;
-}
-
-#banner_text_container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1100px;
-}
-
-#banner_container {
-    position: relative;
-}
-
-#banner_text_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
 }
 
 #client_name {
