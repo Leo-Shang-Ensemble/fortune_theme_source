@@ -1,6 +1,28 @@
 
 //== Container main content style, used on page template
 
+// TODO: keep header at top
+#header_container {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03);
+    border-bottom-color: #ebecee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    //position: fixed;
+    //width: 100%;
+    //height: 80px;
+    //z-index: 999;
+}
+
+#header_container div {
+    vertical-align: middle;
+}
+
+//#body {
+//    position: relative;
+//    top: 80px;
+//}
+
 #header, #our_services_container, #meet_the_team_container, #recent_news_container, #happy_client_container {
     margin-left: auto;
     margin-right: auto;
@@ -30,10 +52,6 @@
     padding-top: 65px;
     padding-bottom: 65px;
 }
-
-//#header, #category_title {
-//    padding: 0 47px;
-//}
 
 #meet_the_team_section, #happy_client_section {
     background-color: $color-background-grey;
