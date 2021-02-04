@@ -19,8 +19,9 @@
 }
 
 #comment_icon img {
-  width: 56px;
-  height: 56px;
+  max-width: 52px;
+  max-height: 52px;
+  float: right;
   padding: 4px;
   border-width: 1px;
   border-style: solid;
