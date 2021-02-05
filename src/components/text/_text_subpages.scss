@@ -23,6 +23,45 @@
   color: #5a5b5c;
 }
 
+#recent_post_item,
+#last_recent_post_item {
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #5a5b5c;
+    font-size: 11px;
+    line-height: 1.65;
+    a {
+      color: #0da4d3;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+}
+
+#recent_post_item {
+  padding-bottom: 10px;
+  border-bottom-color: #e0e1e3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#archive_item,
+#last_archive_item {
+  a {
+    color: #0da4d3;
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
+
+#archive_item {
+  padding-bottom: 10px;
+  border-bottom-color: #e0e1e3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
 #subpage_body_content_first_paragraph {
   margin-top: 2rem;
   margin-bottom: 2rem;

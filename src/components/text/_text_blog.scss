@@ -39,14 +39,14 @@
   max-width: 90%;
   margin-top: 0;
   margin-bottom: 0;
-}
 
-#related_container a {
-  color: #0da4d3;
-  text-decoration: none;
-  font-size: inherit;
-  font-weight: inherit;
-  opacity: 1;
+  a {
+    color: #0da4d3;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+    opacity: 1;
+  }
 }
 
 #previous_entry_text a {
@@ -63,5 +63,4 @@
   color: #929394;
   font-size: 0.702rem;
   line-height: 1.65;
-
 }
